@@ -28,7 +28,7 @@ function (download_file url filename)
 endfunction (download_file)
 
 #
-set (OPTD_DATA_DIR ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/data/por/${PROJECT_VERSION})
+set (OPTD_DATA_DIR ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/data/por)
 install (FILES ${CMAKE_CURRENT_BINARY_DIR}/${OPTD_FILE} DESTINATION ${OPTD_DATA_DIR})
 
 #
